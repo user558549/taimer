@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(фон.jpg);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.taimer {
+  width: 20%;
+  height: 20rem;
+}
+.counter {
+  border: solid rebeccapurple 3px;
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  color: gold;
+  font-size: 100px;
+}
+.start {
+  background-color: gold;
+  width: 5rem;
+  height: 5rem;
+  border: solid black 1px;
+  margin-right: 5px;
+  font-size: 25px;
+}
+.pause {
+  background-color: gold;
+  width: 5rem;
+  height: 5rem;
+  border: solid black 1px;
+  margin-right: 5px;
+  font-size: 25px;
+}
+.reset {
+  background-color: gold;
+  width: 5rem;
+  height: 5rem;
+  border: solid black 1px;
+  margin-right: 5px;
+  font-size: 25px;
+}
